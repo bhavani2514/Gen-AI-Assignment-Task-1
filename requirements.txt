@@ -1,0 +1,41 @@
+ It uses LangGraph and does not depend on OpenAI / Groq / LangChain APIs
+
+Runs without any API key
+
+langgraph
+
+Your code imports:
+
+from langgraph.graph import StateGraph
+
+
+No LLM libraries are required
+
+This avoids all API, quota, and import issues
+
+This is clean and professional
+
+
+
+STEP-BY-STEP: HOW TO RUN TASK 1
+STEP 1: Clone the Repository
+git clone https://github.com/your-username/genai-assignment-bhavani.git
+cd Soulpage-genai-assignment-bhavani
+STEP 2: (Optional but Recommended) Create Virtual Environment
+python -m venv venv
+
+
+Activate it:
+
+Windows
+venv\Scripts\activate
+
+
+STEP 3: Install Dependencies
+pip install -r requirements.txt
+
+
+This installs: langgraph
+
+STEP 4: Run Task 1 Code
+python task1.py
