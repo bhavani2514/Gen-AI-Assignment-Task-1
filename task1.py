@@ -58,7 +58,7 @@ workflow.set_finish_point("analyst")
 app = workflow.compile()
 
 # -----------------------------
-# Execute (COLAB SAFE)
+# Execute 
 # -----------------------------
 company_name = "Tesla"
 
@@ -71,4 +71,5 @@ print(result["data"])
 
 print("\n--- ANALYSIS ---")
 print(result["analysis"])
+
 
