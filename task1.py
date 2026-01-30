@@ -3,8 +3,8 @@ from langgraph.graph import StateGraph
 from typing import TypedDict
 import os
 
-# 👉 SET YOUR API KEY DIRECTLY FOR COLAB
-os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
+#  SET YOUR API KEY Here
+os.environ["OPENAI_API_KEY"] = "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"
 
 # Initialize LLM
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
@@ -71,5 +71,6 @@ print(result["data"])
 
 print("\n--- ANALYSIS ---")
 print(result["analysis"])
+
 
 
